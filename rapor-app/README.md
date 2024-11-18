@@ -1,6 +1,6 @@
 # Hastane Rapor Sistemi
 
-Bu proje, hastane raporlarını yönetmek için geliştirilmiştir. Backend Node.js ve Express.js kullanılarak geliştirilmiş olup, frontend React ile Vite kullanılarak oluşturulmuştur.
+Backend Node.js ve Express.js kullanılarak geliştirilmiş olup, frontend React ile Vite kullanılarak oluşturulmuştur.
 
 ---
 

@@ -73,3 +73,4 @@ npm run dev
 - Admin kullanıcı, yeni çalışan tanımlayabilir, silebilir ve kendisi Laborant olmadığı için yeni rapor tanımlamaya yetkisi yoktur sadece hastane yönticisidir.
 - Admin kullanıcı tarafından oluşturulan Laborantlar, hesaplarına giriş yaptıktan sonra şifrelerini değiştirebilir ve rapor tanımlama, düzenleme ve silme işlemlerini gerçekleştirebilir.
 - Not: Kullanıcı ve Laborant(Technician) normal kullanıcılar ile farklı veritabanı modelinde kurulduğu için sadece admin tarafından tanımlanabilecek 1. kullanıcıdan sonra kurulan hesaplar User statüsünde oldukları için hiç bir özelliğe yetkileri olmayacak sadece **Ana Sayfa**'dan daha önce Laborantlar tarafından oluşturulmuş Raporları görüntüleyip filtreleyebileceklerdir.
+- normal kullacılar admin ve teknisyenler aynı giriş yapma sayfasını kullanabileceklerdir.

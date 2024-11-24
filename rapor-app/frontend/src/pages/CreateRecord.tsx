@@ -83,7 +83,7 @@ const CreateRecord = () => {
       const res = await dispatch(
         createRecord({ ...formData, technician: authUser?.email })
       );
-      if (!res.payload.success) {
+      if (!res.payload) {
         toast.error("Rapor oluşturulamadı." + error);
 
         return;
